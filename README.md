@@ -16,7 +16,8 @@ This project is a simple React application that demonstrates a form with validat
 - **Formik**: A library for managing form state and handling validation.
 - **Yup**: A library for schema validation.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
-
+Live Demo
+You can view a live demo of the application here.
 ## Getting Started
 
 To get started with this project, follow these steps:
@@ -70,5 +71,3 @@ export const singUpSchema = Yup.object({
     ).required("Please enter your password!"),
     confirmPassword: Yup.string().min(6).required().oneOf([Yup.ref("userPassword"), null], "Passwords must match")
 });
-Live Demo
-You can view a live demo of the application here [`https://mcct5-from-validation.vercel.app/`].
