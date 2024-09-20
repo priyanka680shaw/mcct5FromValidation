@@ -4,8 +4,8 @@ import { singUpSchema } from './schema';
 
 const Form = () => {
     let inputForm = {
-        container: "min-h-[400px] flex justify-center items-center bg-gray-500 px-4 py-4 relative left-8 top-2",
-        formContainer: "w-full max-w-lg bg-white shadow-lg rounded-lg p-6",
+        container: "md:w-full w-[250px] m:auto h-[500px] md:min-h-[400px] flex justify-center items-center bg-gray-500 px-4 py-4 relative left-8 top-2 absolute top-0",
+        formContainer: "w-full max-w-full bg-white shadow-lg rounded-lg p-6",
         inputContainer: "mb-4",
         label: "block text-gray-700 font-bold mb-2",
         inputBox: "w-full p-2 border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-indigo-500",
